@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "张晓虎"
-description              : "人形机器人移动操作/电机控制"
-repository               : "xiaohu97/xiaohu97.github.io"
+title                    : "Xiaohu Zhang"
+description              : "Humanoid Robot Locomotion & Manipulation / Motor Control"
+repository               : "xiaohu97/engish"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "张晓虎"
+  name             : "Xiaohu Zhang"
   avatar           : "images/张晓虎证件照2023.jpg"
-  bio              : "中国科学技术大学"
-  location         : "安徽 合肥"
+  bio              : "University of Science and Technology of China"
+  location         : "Hefei, Anhui, China"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=_lZNOiUAAAAJ"
@@ -58,6 +58,7 @@ author:
   youtube          :
   wikipedia        :
 
+# ...existing code...
 
 # Reading Files
 include:

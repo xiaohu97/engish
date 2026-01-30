@@ -1,19 +1,19 @@
-# main links links
+# main links
 main:
-  - title: "简介"
+  - title: "About"
     url: "/#about-me"
 
-  - title: "学历"
-    url: "/#-xl"
+  - title: "Education"
+    url: "/#education"
 
-  - title: "论文专利"
-    url: "/#-lwzl"
+  - title: "Publications"
+    url: "/#publications"
 
-  - title: "荣誉奖项"
-    url: "/#-ryjx"
+  - title: "Honors"
+    url: "/#honors"
 
-  - title: "学术会议"
-    url: "/#-xshy"
+  - title: "Conferences"
+    url: "/#conferences"
 
-  - title: "工作实习"
-    url: "/#-gzsx"
+  - title: "Internships"
+    url: "/#internships"
