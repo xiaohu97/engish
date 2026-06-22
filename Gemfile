@@ -1,5 +1,29 @@
 source "https://rubygems.org"
 
+# Monkeypatch for Ruby 3.2+ compatibility with older Liquid templates
+unless Object.method_defined?(:tainted?)
+  class Object
+    def tainted?
+      false
+    end
+  end
+end
+unless Object.method_defined?(:taint)
+  class Object
+    def taint
+      self
+    end
+  end
+end
+unless Object.method_defined?(:untaint)
+  class Object
+    def untaint
+      self
+    end
+  end
+end
+
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -35,3 +59,6 @@ end
 
 
 gem "webrick", "~> 1.7"
+gem "csv", "~> 3.3"
+gem "base64", ">= 0.2.0"
+gem "bigdecimal", ">= 3.1"
