@@ -14,6 +14,8 @@ google_scholar_stats_use_cdn : true
 scholar_stats_repository : "xiaohu97/xiaohu97.github.io"
 # 本站部署在 https://xiaohu97.github.io/engish/
 baseurl                  : "/engish"
+# Background theme: cosmos | classic | galaxy | network | aurora | blueprint (preview with ?theme=...)
+theme_style              : cosmos
 # 中文版主页
 chinese_url              : "https://xiaohu97.github.io/"
 
