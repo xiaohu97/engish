@@ -10,6 +10,12 @@ title                    : "Xiaohu Zhang"
 description              : "Humanoid Robot Locomotion & Manipulation / Motor Control"
 repository               : "xiaohu97/engish"
 google_scholar_stats_use_cdn : true
+# 引用数据由中文主站仓库的 GitHub Action 生成
+scholar_stats_repository : "xiaohu97/xiaohu97.github.io"
+# 本站部署在 https://xiaohu97.github.io/engish/
+baseurl                  : "/engish"
+# 中文版主页
+chinese_url              : "https://xiaohu97.github.io/"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,14 +28,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiaohu Zhang"
-  avatar           : "images/张晓虎证件照2023.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : "University of Science and Technology of China"
   location         : "Hefei, Anhui, China"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=_lZNOiUAAAAJ"
   email            : "ustc-zxh@mail.ustc.edu.cn"
-  researchgate     : ""
+  researchgate     :
   uri              : 
   bitbucket        :
   codepen          :
